@@ -1,10 +1,10 @@
-# Group X
+# Group JavaRoRemote06
 
 ## Project structure
 The project contains multiple sub modules, each with a similar structure:
 
         course name (ex: java-advanced)
-            scr.main.java.com.bucur (packages)
+            scr.main.java.com.sda.advanced (packages)
                 topic (ex: collections)
                     subtopic (ex: map)
                         ex1 (proposed exercise)
@@ -15,37 +15,20 @@ The project contains multiple sub modules, each with a similar structure:
 
 ## Courses
 
-### java-advanced
+## JDBC
 
-### java-advanced-code
-
-### design patterns
-
-### spring
- 
-##### spring core
-
-##### spring data jpa
-
-##### spring mvc jsp
-
-##### spring mvc hibernate
-
-##### spring boot jsp
-
-##### spring boot thymeleaf
-
-##### spring boot security
-
-##### spring boot rest
+- statements
+- prepared statements
+- transactions
 
 ---
+
 
 ## How to get it on your computer
 
 ##### in browser
 
-	go to github repo at https://github.com/cosminbucur/sda-course-sample
+	go to github repo at https://github.com/cosminbucur/sda-r016
 
 	copy clone command
 
@@ -55,10 +38,10 @@ The project contains multiple sub modules, each with a similar structure:
 	right click > git bash (or terminal)
 
 ##### in terminal
-	> git clone https://github.com/cosminbucur/sda-course-sample.git
+	> git clone https://github.com/cosminbucur/sda-r06
 
 ##### in intellij
-	open project C:\dev\sda-course-sample
+	open project C:\dev\sda-r06
 
 	check auto import and wait
 
