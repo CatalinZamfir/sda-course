@@ -1,5 +1,8 @@
 package com.sda.hibernate.associations.one_to_many_uni;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DemoOneToManyUnidirectional {
 
     public static void main(String[] args) {
@@ -18,6 +21,8 @@ public class DemoOneToManyUnidirectional {
 
         Mother mother = new Mother();
         mother.setName("mother");
+        Mother mother2 = new Mother();
+        mother.setName("mother2");
 
         // add children to parent
         mother.getDaughters().add(daughter1);
@@ -29,6 +34,8 @@ public class DemoOneToManyUnidirectional {
 //        daughters.add(daughter2);
 //        mother.setDaughters(daughters);
 
-        motherDao.create(mother);
+//        motherDao.create(mother);
+//        motherDao.findMother("mother2");
+
     }
 }

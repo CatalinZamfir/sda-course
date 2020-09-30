@@ -19,6 +19,19 @@ public class MotherDao {
             }
         }
     }
+//    public void findMother (String motherName){
+//        Transaction transaction = null;
+//        try (Session session = getSession()){
+//            transaction = session.beginTransaction();
+//            session.find(Mother.class, motherName);
+//            transaction.commit();
+//        }catch (HibernateException e){
+//            if (transaction != null) {
+//                transaction.rollback();
+//            }
+//        }
+//    }
+
 
     private Session getSession() {
         return HibernateUtil.getSessionFactory().openSession();
